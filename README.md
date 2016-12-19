@@ -9,17 +9,19 @@ precisely symmetric graphs of the "EUC_2D" (euclidian distance) type.
 
 You can tune the genetic algorithm a little at runtime. Here are the available
 command line options:
-&nbsp;&nbsp;-e    use elitism (default true)
-&nbsp;&nbsp;-i    initialize population with nearest neighbor algorithm
-&nbsp;&nbsp;-l uint
-&nbsp;&nbsp;&nbsp;&nbsp;pathlen lower bound
-&nbsp;&nbsp;-m uint
-&nbsp;&nbsp;&nbsp;&nbsp;mutation rate in percent (default 2)
-&nbsp;&nbsp;-n uint
-&nbsp;&nbsp;&nbsp;&nbsp;number of goroutines (default 1)
-&nbsp;&nbsp;-p uint
-&nbsp;&nbsp;&nbsp;&nbsp;population size (default 20)
-&nbsp;&nbsp;-s uint
-&nbsp;&nbsp;&nbsp;&nbsp;number of individuals in natural selection (default 4)
-&nbsp;&nbsp;-t duration
-&nbsp;&nbsp;&nbsp;&nbsp;timeout in seconds
+<pre>
+  -e    use elitism (default true)
+  -i    initialize population with nearest neighbor algorithm
+  -l uint
+        pathlen lower bound
+  -m uint
+        mutation rate in percent (default 2)
+  -n uint
+        number of goroutines (default 1)
+  -p uint
+        population size (default 20)
+  -s uint
+        number of individuals in natural selection (default 4)
+  -t duration
+        timeout in seconds
+</pre>
