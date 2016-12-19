@@ -9,7 +9,7 @@ precisely symmetric graphs of the "EUC_2D" (euclidian distance) type.
 
 You can tune the genetic algorithm a little at runtime. Here are the available
 command line options:
-    -e    use elitism (default true)
+`    -e    use elitism (default true)
     -i    initialize population with nearest neighbor algorithm
     -l uint
           pathlen lower bound
@@ -22,4 +22,4 @@ command line options:
     -s uint
           number of individuals in natural selection (default 4)
     -t duration
-          timeout in seconds
+          timeout in seconds`
